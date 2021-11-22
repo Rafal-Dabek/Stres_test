@@ -114,3 +114,51 @@ button{
     margin-left: 50px;
 }
 
+#tabela_punkty
+{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    
+}
+
+td, th
+{
+    border: 3px solid orange;
+    border-collapse: collapse;
+    
+}
+
+
+
+#result_table
+{
+    border: 5px solid orange;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightyellow;
+    font-size: 23px;
+    display:block;
+    
+   
+}
+
+#blue
+{
+    background-color: #E0FFFF;
+}
+
+#results_info
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E0FFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid black;
+    display: block;
+}
+

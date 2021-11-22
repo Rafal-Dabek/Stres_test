@@ -202,8 +202,31 @@ function done2()
     if(!isNaN(document.getElementById("disp").innerHTML))
     {
         document.getElementById("disp").innerHTML += "Wynik okołoemocjonalny: " + okołoemocjonalne + "<br>" +
-        "Wynik zadaniowy: " + zadaniowe;
+        "Wynik zadaniowy: " + zadaniowe + "<br>";
+
+        
     }
+
+    
+
+    // if(parseInt(okołoemocjonalne)>parseInt(zadaniowe))
+    // {
+    //   document.getElementById("results").innerHTML += "Twój większy wynik dla danego typu to: " + okołoemocjonalne 
+    //   + "<br>" + "Różnica punktowa: " + parseInt(okołoemocjonalne) - parseInt(zadaniowe);
+    // }
+    // else if(parseInt(zadaniowe)>parseInt(okołoemocjonalne))
+    // {
+    //       document.getElementById("results").innerHTML += "Twój większy wynik dla danego typu to: " + zadaniowe 
+    //       + "<br>" + "Różnica punktowa: " + parseInt(zadaniowe) - parseInt(okołoemocjonalne);
+    // }
+    // else 
+    // {
+    //     document.getElementById("results").innerHTML += "Twój wynik dla obu typów jest równy"
+    //     + "<br>" + "Różnica punktowa: " + parseInt(zadaniowe) - parseInt(okołoemocjonalne);
+    // }
+    
+
+
   }
 
 }
