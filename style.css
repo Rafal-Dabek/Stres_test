@@ -162,3 +162,7 @@ td, th
     display: block;
 }
 
+#results
+{
+    display: none;
+}
