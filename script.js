@@ -204,7 +204,7 @@ function done2()
         document.getElementById("disp").innerHTML += "Wynik okołoemocjonalny: " + okołoemocjonalne + "<br>" +
         "Wynik zadaniowy: " + zadaniowe + "<br>";
 
-        document.getElementById("results").style.display = "block";
+        //document.getElementById("results").style.display = "block";
         
     }
 
